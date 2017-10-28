@@ -1,0 +1,189 @@
+/*harmonia sans font*/
+@font-face {
+    font-family: "HarmoniaRegular";
+    src: url("Harmonia Sans Cyrillic Pro/HarmoniaSansProCyr-Regular.otf");
+}
+
+@font-face {
+    font-family: "HarmoniaSemiBd";
+    src: url("Harmonia Sans Cyrillic Pro/HarmoniaSansProCyr-SemiBd.otf");
+}
+
+@font-face {
+    font-family: "HarmoniaBold";
+    src: url("Harmonia Sans Cyrillic Pro/HarmoniaSansProCyr-Bold.otf");
+}
+
+/*filosofia font*/
+@font-face {
+    font-family: "filosofia";
+    src: url("Filosofia.ttf");
+}
+@font-face {
+    font-family: "filosofiaIt";
+    src: url("FilosofiaItalic Regular.ttf");
+}
+
+
+
+h1, p, input, .form, .Submit, .reset, a, ul{
+    font-family: "HarmoniaSemiBd", "HarmoniaRegular", "Century Gothic", Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+}
+
+input {
+    color:rgb(0,0,0);
+}
+
+img {
+    width: 170px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(100, 130, 178);
+}
+
+html { 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.enter {
+    font-size: 1.75em;
+    width: 75%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    word-wrap: break-word;
+}
+
+.questions {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "HarmoniaSemiBd";
+}
+
+.button {
+    font-family: "HarmoniaSemiBd", "HarmoniaRegular", "Century Gothic", Helvetica, sans-serif;
+    background-color: rgb(102, 153, 153);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 4px 2px;
+    height: 50px;
+    width: 150px;
+}
+
+/*a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+*/
+
+.Start {
+    height: 50px;
+    width: 130px;
+    font-family: "HarmoniaBold";
+}
+
+.make {
+    background-color: rgb(12, 153, 153);
+}
+
+.button:hover {
+    background-color: rgb(51, 77, 77);
+}
+
+
+/*Animation to make the Make Schedule button look like it's pulsing*/
+.make {
+    -webkit-animation: fader 2s infinite  alternate;
+    animation: fader 2s infinite  alternate;
+}
+@-webkit-keyframes fader {
+0%,100% { opacity: 0.5 }
+  50% { opacity: 1 }
+}
+@keyframes fader {
+0%,100% { opacity: 0.5 }
+  50% { opacity: 1 }
+}
+
+
+/* Formatting for the schedule goes here */
+ul {
+    list-style-type: none;
+}
+
+.finalschedule {
+    margin-left: 10%;
+    text-align: left;
+    font-weight: bold;
+    font-family: "HarmoniaBold";
+    line-height: 2em;
+    font-size: 1.7em;
+}
+
+.break {
+    color:rgb(183, 45, 128);
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.Submit {
+    display: none;
+}
+
+
+
+.topbar {
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+}
+
+.topbar h1 {
+    color: black;
+}
+
+.intro {
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.ip {
+    font-family: "filosofia", "Georgia", serif;
+    font-style: bold;
+}
+
+.ih {
+    font-family: "filosofiaIt";
+    font-size: 2.5em;
+    letter-spacing: 0.25px;
+}

@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   
+    </head>
+
+
+    <body>
+
+        <!-- <a href="index.html">Home</a> -->
+        <div class="topbar" id="topindex">
+            <h1> Smart-Schedule </h1>
+        </div>
+        <p></p>
+
+
+
+        <!--This is the class wrapper so that stuff gets hidden -->
+        <div class = "hidden">
+
+            <!-- This is where the questions show up-->
+        <p class = "questions">How many minutes do you want to work?</p>
+
+            <!-- This is where the form is-->
+        <div class="form">
+            <!-- <label for="enter">Enter Here:</label> -->
+            <input type="text" id="enter" class="enter">
+            <button type="Submit" class ="button Submit">Submit</button>
+        </div>
+
+            <!-- This is for the responses / answers you type in real-time-->
+        <div class ="responses">
+          <p class ="answers"></p>
+        </div>
+        </div>
+
+        <p></p>
+
+        <!-- This is where the final schedule appears-->
+        <ul class="finalschedule">
+            <li class ="schedule"></li>
+        </ul>
+
+        <!-- The two nice buttons come in here-->
+        <button class ="button reset">Reset</button>
+        <button class ="button make">Make Schedule</button>
+        
+
+    </body>
+        <script src="main.js"></script>
+
+</html>
