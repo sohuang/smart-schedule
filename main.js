@@ -69,7 +69,7 @@ function chat() {
     let ans = String(enter.value);
     
         if (askWork) {
-            questions.innerHTML = ('How long do you want your break? (Enter in minutes)');
+            questions.innerHTML = ('How many minutes is your break?');
             askWork = false;
             let num1 = parseInt(ans, 10);
             workTime = num1;
@@ -87,7 +87,7 @@ function chat() {
         }
         else
         if (asktask) {
-            questions.innerHTML = ('How long do you think it will take? (Enter in minutes)');
+            questions.innerHTML = ('How many minutes do you think it will take?');
             counter++;
             asktask = false;
             answers.innerHTML += 'Task:' + ' ' + (counter-1) + ' | ' + ans + ' ';
