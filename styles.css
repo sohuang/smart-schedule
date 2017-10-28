@@ -76,7 +76,7 @@ body {
 
 .button {
     font-family: "HarmoniaSemiBd", "HarmoniaRegular", "Century Gothic", Helvetica, sans-serif;
-    background-color: rgb(102, 153, 153);
+    background-color: rgb(232, 196, 129);
     border: none;
     border-radius: 30px;
     color: white;
@@ -105,9 +105,9 @@ body {
     font-family: "HarmoniaBold";
 }
 
-.make {
+/*.make {
     background-color: rgb(12, 153, 153);
-}
+}*/
 
 .button:hover {
     background-color: rgb(51, 77, 77);
@@ -115,7 +115,7 @@ body {
 
 
 /*Animation to make the Make Schedule button look like it's pulsing*/
-.make {
+/*.make {
     -webkit-animation: fader 2s infinite  alternate;
     animation: fader 2s infinite  alternate;
 }
@@ -126,7 +126,7 @@ body {
 @keyframes fader {
 0%,100% { opacity: 0.5 }
   50% { opacity: 1 }
-}
+}*/
 
 
 /* Formatting for the schedule goes here */
@@ -188,4 +188,15 @@ button {
     font-family: "filosofiaIt";
     font-size: 2.5em;
     letter-spacing: 0.25px;
+}
+
+.btmnav a {
+    font-family: "filosofiaIt";
+    font-size: 1.25em;
+    text-decoration: underline;
+}
+
+.btmnav {
+    position: absolute;
+    bottom: 10px;
 }
