@@ -181,7 +181,7 @@ button {
 
 .intro {
     border: 1px solid white;
-    background-color: rgb(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     padding: 10px;
     margin-top: 50px;
